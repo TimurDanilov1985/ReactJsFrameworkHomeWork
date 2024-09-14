@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.message {
+    padding-top: 30px;
+    text-align: center;
+
+    &__text {
+        padding: 10px 10px;
+        font-size: 25px;
+        font-weight: 600;
+        color: green;
+        border: 1px solid yellowgreen;
+        border-radius: 10px;
+    }
+}

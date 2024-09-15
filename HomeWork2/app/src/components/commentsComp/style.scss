@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__text {
+        font-size: 50px;
+        font-weight: 500;
+        color: red;
+    }
+}
+
+.list {
+    padding: 20px 20px;
+
+    &__ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+    }
+
+    &__block {
+        padding: 10px 10px;
+        border: 2px solid blue;
+        border-radius: 10px;
+
+        &__item {
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+
+        &__button {
+            background: none;
+            border: 2px solid red;
+            padding: 5px 5px;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            color: red;
+            transition: .3s;
+
+            &:hover {
+                color: white;
+                background: red;
+            }
+
+            &:active {
+                color: red;
+                background: none;
+            }
+        }
+    }
+}

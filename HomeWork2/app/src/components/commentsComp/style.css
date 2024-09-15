@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.heading__text {
+  font-size: 50px;
+  font-weight: 500;
+  color: red;
+}
+
+.list {
+  padding: 20px 20px;
+}
+.list__ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.list__block {
+  padding: 10px 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.list__block__item {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.list__block__button {
+  background: none;
+  border: 2px solid red;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: red;
+  transition: 0.3s;
+}
+.list__block__button:hover {
+  color: white;
+  background: red;
+}
+.list__block__button:active {
+  color: red;
+  background: none;
+}/*# sourceMappingURL=style.css.map */

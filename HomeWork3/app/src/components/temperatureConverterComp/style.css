@@ -1,0 +1,13 @@
+.converter__name {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 800;
+  color: violet;
+  text-align: center;
+}
+.converter__block {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */

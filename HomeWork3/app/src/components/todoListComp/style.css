@@ -1,0 +1,26 @@
+.todo__name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: yellowgreen;
+}
+.todo__input {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.todo__input__field {
+  width: 600px;
+}
+.todo__list {
+  padding-top: 30px;
+}
+.todo__list__card {
+  text-align: center;
+}
+.todo__list__card__text {
+  font-size: 25px;
+  font-weight: 600;
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

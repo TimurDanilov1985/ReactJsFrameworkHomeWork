@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+} 
+
+.component {
+    height: 100vh;
+}
+
+.head {
+    padding: 30px;
+    text-align: center;
+    color: red;
+}
+
+.button {
+    padding: 10px;
+
+    &__btn {
+        padding: 5px;
+        border: 2px solid orangered;
+        border-radius: 15px;
+        background: none;
+        font-size: 15px;
+        font-weight: 700;
+        color: orangered;
+        transition: .3s;
+
+        &:active {
+            background: orangered;
+            color: white;
+        }
+    }
+}
+
+.text {
+    font-size: 20px;
+    padding: 10px;
+
+    &__bold {
+        font-weight: 700;
+    }
+}

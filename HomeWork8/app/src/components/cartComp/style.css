@@ -1,0 +1,124 @@
+.centre {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.cart__name {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #F8F3F4;
+  font-size: 24px;
+  font-weight: 400;
+  color: #F16D7F;
+}
+.cart__products {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cartProduct {
+  display: flex;
+  border: 1px solid #6F6E6E;
+  box-shadow: 15px 15px 8px 0px rgba(192, 204, 214, 0.6);
+}
+.cartProduct__image {
+  width: 600px;
+  height: 300px;
+}
+.cartProduct__image__img {
+  width: 100%;
+  height: 100%;
+}
+.cartProduct__description {
+  padding: 20px;
+}
+.cartProduct__description__title {
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.cartProduct__description__title__t {
+  display: flex;
+  justify-content: space-between;
+}
+.cartProduct__description__price {
+  font-size: 20px;
+  color: #6F6E6E;
+  padding-bottom: 15px;
+}
+.cartProduct__description__price__color {
+  color: #EF5B70;
+}
+.cartProduct__description__info {
+  font-size: 20px;
+  color: #6F6E6E;
+}
+.cartProduct__description__info__quantity {
+  display: flex;
+  gap: 10px;
+}
+.cartProduct__description__info__quantity__button {
+  font-size: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: red;
+}
+.cartProduct__description__delete {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.controls {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.controls__button {
+  padding: 10px 30px;
+  background: none;
+  border: 2px solid #6F6E6E;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.controls__button:active {
+  color: white;
+  background: #6F6E6E;
+}
+
+.grandTotal {
+  padding: 40px;
+  text-align: center;
+  background: #F5F3F3;
+}
+.grandTotal__value {
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4A4A4A;
+}
+.grandTotal__value__style {
+  color: #EF5B70;
+}
+.grandTotal__button {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: #EF5B70;
+  border: 2px solid #EF5B70;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.grandTotal__button:active {
+  color: #EF5B70;
+  background: none;
+}/*# sourceMappingURL=style.css.map */

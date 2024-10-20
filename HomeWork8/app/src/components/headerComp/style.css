@@ -1,0 +1,41 @@
+.centre {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #222222;
+}
+.header__logo {
+  display: flex;
+  gap: 40px;
+}
+.header__logo__button {
+  background: none;
+  border: none;
+}
+.header__menu {
+  display: flex;
+  gap: 35px;
+  position: relative;
+}
+.header__menu__button {
+  background: none;
+  border: none;
+}
+.header__menu__quantity {
+  padding: 1px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}/*# sourceMappingURL=style.css.map */

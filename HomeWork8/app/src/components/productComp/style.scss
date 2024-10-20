@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    width: 350px;
+    border: 1px solid #F8F8F8;
+    text-align: center;
+    position: relative;
+
+    &:hover &__addToCart {
+        visibility: visible;
+        transition: .8s;
+        opacity: 0.8;
+    }
+
+    &__image {
+        width: 350px;
+        height: 350px;
+
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__description {
+        padding: 20px;
+        background: #F8F8F8;
+        background-size: cover;
+        height: 350px;
+
+        &__title {
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 16px;
+            color: #000000;
+        }
+
+        &__info {
+            padding-top: 20px;
+            font-size: 17px;
+            font-weight: 500;
+            color: #5D5D5D;
+        }
+
+        &__price {
+            padding-top: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #F16D7F;
+        }
+    }
+
+    &__addToCart {
+        width: 350px;
+        height: 100%;
+        background: #555050;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        opacity: 0.1;
+        visibility: hidden;
+
+        &__button {
+            background: none;
+            border: none;
+
+            &__block {
+                padding: 15px;
+                border: 2px solid white;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 20px;
+                font-weight: 400;
+                color: white;
+                transition: .8s;
+                cursor: pointer;
+
+                &__svg {
+                    fill: white;
+                    transition: .8s;
+                }
+
+                &:hover {
+                    background: white;
+                    color: #555050;
+                }
+
+                &:hover svg {
+                    fill: #555050;
+                }
+
+                &:active {
+                    background: none;
+                    color: white;
+                }
+
+                &:active svg {
+                    fill: white;
+                }
+            }
+        }
+    }
+}

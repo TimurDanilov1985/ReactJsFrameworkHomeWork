@@ -1,0 +1,14 @@
+.fetured {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.fetured__name {
+  font-size: 30px;
+  font-weight: 400;
+}
+.fetured__text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #9F9F9F;
+}/*# sourceMappingURL=style.css.map */
